@@ -1,0 +1,51 @@
+.desert-foods-logo {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: #f5eec3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cactus {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  width: 60px;
+  height: 120px;
+  background-color: #4d3d1f;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-20deg);
+}
+
+.plate {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.food {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #f09823;
+  border-radius: 50%;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4d3d1f;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
